@@ -1,38 +1,28 @@
-# Core FastAPI dependencies
-fastapi==0.104.1
-uvicorn[standard]==0.24.0
-pydantic==2.5.0
-pydantic-settings==2.1.0
-
-# AI and Agents
-crewai==0.28.8
-groq==0.4.1
-langchain==0.1.0
-langchain-community==0.0.10
-langsmith==0.0.69
-
-# Vector Database
-chromadb==0.4.18
-
-# HTTP clients and APIs
-httpx==0.25.2
-aiohttp==3.9.1
-requests==2.31.0
-tweepy==4.14.0
-
-# Data processing
-pandas==2.1.4
-numpy==1.24.3
-geopy==2.4.1
-
-# Utilities
-python-dotenv==1.0.0
-python-multipart==0.0.6
-email-validator==2.1.0
-
-# System monitoring
-psutil==5.9.6
-
-# Logging and monitoring
-structlog==23.2.0
-
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+crewai
+groq
+langchain
+langchain-community
+langsmith
+chromadb
+httpx
+aiohttp
+requests
+tweepy
+pandas
+numpy
+geopy
+folium
+python-dotenv
+python-multipart
+email-validator
+structlog
+pytest
+pytest-asyncio
+black
+isort
+flake8
+mypy
