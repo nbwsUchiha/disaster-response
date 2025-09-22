@@ -67,7 +67,7 @@ def load_config():
     """Load configuration from secrets or environment."""
     try:
         # Try to load from Streamlit secrets
-        backend_url = st.secrets.get("backend_url", "https://nbws-disaster-response.hf.space")
+        backend_url = st.secrets.get("backend_url", "https://nbws-disaster-response-api.hf.space")
         default_lat = st.secrets.get("default_lat", 40.7128)
         default_lon = st.secrets.get("default_lon", -74.0060)
     except:
@@ -773,3 +773,4 @@ def trigger_emergency_assessment(lat: float, lon: float, incident_type: str, sev
 # Run the app
 if __name__ == "__main__":
     main()
+
